@@ -2,7 +2,7 @@
 
 ## 概要
 
-Minecraft Bedrock の ScriptAPI で Scoreboard の管理をより、
+Minecraft Bedrock の ScriptAPI で Particle の管理をより、
 簡易的に操作するために設計されたクラスです。
 
 遅延をかけているため、トップレベルで使用可能です。
