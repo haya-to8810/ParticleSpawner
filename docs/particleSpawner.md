@@ -5,8 +5,6 @@
 Minecraft Bedrock の ScriptAPI で Particle の管理をより、
 簡易的に操作するために設計されたクラスです。
 
-遅延をかけているため、トップレベルで使用可能です。
-
 ## constructor
 ### `constructor(particles): ParticleSpawner`
 
@@ -28,7 +26,7 @@ Minecraft Bedrock の ScriptAPI で Particle の管理をより、
 特定のディメンションの座標にパーティクルを出現させます
 
 ### `player(player,molang,location?)`
-- **player** `"overworld" | "nether" | "end"`
+- **player** `Player`
 - **molang** `MolangVariableMapCallback`
 - **[location]** `Vector3` 引数がなかった場合、playerの位置を起点とします
 
