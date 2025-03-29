@@ -2,7 +2,7 @@
 
 パーティクル管理のための 簡易的な ScriptAPI ライブラリです
 
-[ダウンロード](https://github.com/haya-to8810/Scoreboarder/releases/download/minecraft/scoreBoarder.js)
+[ダウンロード](https://github.com/haya-to8810/ParticleSpawner/releases/download/minecraft/soundPlayer.js)
 
 > [!NOTE]
 > 質問やエラーは以下のDiscordアカウントへ
@@ -18,7 +18,7 @@
 [Documentation](docs/particleSpawner.md)
 
 ```javascript
-import ParticleSpawner from "./utils/particleSpawner.js";
+import ParticleSpawner from "./particleSpawner.js";
 
 const testParticles = new ParticleSpawner([
     { typeId: "custom:particle" },
