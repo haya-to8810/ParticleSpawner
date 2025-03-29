@@ -24,10 +24,12 @@ Minecraft Bedrock の ScriptAPI で Particle の管理をより、
 - **dimension** `"overworld" | "nether" | "end"`
 - **location** `Vector3`
 - **molang** `MolangVariableMapCallback`
+
 特定のディメンションの座標にパーティクルを出現させます
 
-### `dimension(dimension,molang,location?)`
-- **dimension** `"overworld" | "nether" | "end"`
+### `player(player,molang,location?)`
+- **player** `"overworld" | "nether" | "end"`
 - **molang** `MolangVariableMapCallback`
-- **location** `Vector3` 引数がなかった場合、playerの位置を起点とします
+- **[location]** `Vector3` 引数がなかった場合、playerの位置を起点とします
+
 特定のプレイヤーの座標にパーティクルを出現させます
